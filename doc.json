@@ -1,0 +1,25 @@
+{
+  "name": "Building-clone",
+  "description": "Clone brick ownership to a new location",
+  "author": "Aware",
+  "commands": [
+    {
+      "name": "/clone",
+      "description": "Clone brick ownership to a new location",
+      "example": "/clone",
+      "args": []
+    }
+  ],
+  "config": {
+    "only-authorized": {
+      "description": "Whether only authorized players can use clone command",
+      "type": "boolean",
+      "default": true
+    },
+    "authorized-users": {
+      "description": "List of players who can always use clone command",
+      "type": "players",
+      "default": []
+    }
+  }
+}
